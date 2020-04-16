@@ -1,0 +1,83 @@
+html,body {margin:0;padding:0;border:0;font-size:100%;font:inherit;}
+ol,ul{list-style:none;margin:0;padding:0;}
+/* start editing from here */
+a{text-decoration:none;}
+img{max-width:100%;}
+body{font-size: 100%; background:#f5f5f5;  font-family: 'Roboto', sans-serif;}
+a {text-decoration: none; border:0; outline:0!important;}
+a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+* {box-sizing: border-box}
+input[type="text"], input[type="email"],input[type="password"], input[type="tel"] { width:100%; float:left;margin-bottom: 4px; height:40px; border-radius:3px; border:1px solid #eee; padding:3px 12px; font-size:14px; font-weight:400; font-size: 1em;color: #A29E9E; }
+/*--Reset CSS strat here--*/
+.meerk_logo img {width: 140px;}
+.reset_pwd {margin:4rem 0 0;}
+.meerk_logo {text-align:center; width:100%; float: left; margin: 0 0 .5em;}
+.resetPwd-main { width:28%; background: #fff; margin:0 auto;  border-radius: 5px; padding:3em 2em; box-shadow: 0 0 50px #ddd; clear:both;}
+.resetPwd-main h1 { margin: 0; text-align: center; font-size: 2em;  color:#0086E5; font-weight:500; } 
+.resetPwd-main p {
+    font-size: 1em;
+    color: #696969;
+    line-height: 1.5em;
+    margin: .5em 0em 1.5em;
+    text-align:center;
+}
+.resetPwd-main input[type="submit"] { font-size: 1em; color: #fff;  background:#0086E5; width: 50%; padding: 0.8em 0em; outline: none; border: none; border-radius: 5px; cursor: pointer; border-bottom: 3px solid #045B99; display: block; margin: 1.5em auto 0; }
+.resetPwd-main input[type="submit"]:hover{
+    background:#1D1C1C;
+    border-bottom: 3px solid #2F2F2F;  
+    transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.form_group {width:100%; float:left; margin:0 0 1em;}
+/*---copyrights--*/
+.copy-right { margin: 1em 0em; }
+.copy-right p { text-align: center; font-size:1em; color:#fff; line-height: 1.5em; }
+.copy-right p a{ color:#fff; }
+.copy-right p a:hover{
+	 color:#000;
+	 transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+label.error {color: #ff0000; font-size: 12px;}
+.expire_link{display: block; text-align: center; font-size: 1.2em; color: #ff0000; padding: 16px 16px 0;}
+.password_success{display: block; text-align: center; font-size: 1.2em; color: #008800; padding: 16px 16px 0;}
+.password_success span {
+  font-size: 1.6em;
+  background-color: white;
+  margin: 0 0 0.1em;
+  display: block;
+  line-height: normal;
+}
+.resetPwd-main a{ text-align: center; margin: 15px 0 0}
+.show_password_reg_error{color: red;font-size: 12px; text-align: left; clear: both;}
+/*--media quiries start here--*/
+
+@media(max-width:1024px){
+.resetPwd-main {width: 37%;}
+}
+
+@media(max-width:768px){
+.resetPwd-main {width: 49%;}	
+.resetPwd-main {width: 60%;}
+.resetPwd-main h1 {font-size: 2em;}
+}
+
+@media(max-width:480px){
+.resetPwd-main {width: 80%;padding: 3em 1.5em;}	
+.copy-right p {font-size: 0.9em;}
+}
+
+@media(max-width:320px){
+.resetPwd-main h1 {font-size: 1.5em;}
+.resetPwd-main {width: 80%;margin: 2em auto 0em;padding: 1.5em 1.5em;}
+.copy-right p {font-size: 0.85em;padding:0 4px;}
+}

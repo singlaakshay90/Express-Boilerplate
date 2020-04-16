@@ -1,0 +1,8 @@
+node_modules
+.vscode
+swagger.json
+.dockerignore 
+docker-compose.yml
+Dockerfile 
+runSDU
+.DS_Store
